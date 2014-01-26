@@ -42,6 +42,11 @@ public class SignupActivity extends ActionBarActivity {
         BitmapDrawable bkgbt3 = new BitmapDrawable(getResources(),bkg3);
         chips3.setBackgroundDrawable((Drawable) bkgbt3);
 
+        View chips6 = (EditText) findViewById(R.id.address);
+        Bitmap bkg6 = ((BitmapDrawable) getResources().getDrawable(R.drawable.plain_input)).getBitmap();
+        BitmapDrawable bkgbt6 = new BitmapDrawable(getResources(),bkg6);
+        chips3.setBackgroundDrawable((Drawable) bkgbt6);
+
         View chips4 = (EditText) findViewById(R.id.password);
         Bitmap bkg4 = ((BitmapDrawable) getResources().getDrawable(R.drawable.plain_input)).getBitmap();
         BitmapDrawable bkgbt4 = new BitmapDrawable(getResources(),bkg4);

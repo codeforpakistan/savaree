@@ -38,20 +38,29 @@
     <LinearLayout
     android:layout_width="wrap_content"
     android:orientation="vertical"
+    android:gravity="center"
     android:layout_height="wrap_content"
     android:layout_centerHorizontal="true">
     <ImageView
         android:layout_width="wrap_content"
         android:background="@drawable/mapbg"
         android:layout_height="wrap_content" />
-    <EditText
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
         android:layout_width="fill_parent"
         android:id="@+id/startpoint"
+        android:hint="Start Point"
         android:layout_marginTop="10dp"
         android:layout_height="wrap_content" />
     <EditText
         android:layout_width="fill_parent"
         android:id="@+id/endpoint"
+        android:hint="End Point"
         android:layout_marginTop="10dp"
         android:layout_height="wrap_content" />
     <ImageButton
@@ -65,6 +74,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/savebtn"
         android:layout_height="wrap_content" />
+    </LinearLayout>
 </LinearLayout>
 <LinearLayout
     android:layout_width="wrap_content"
