@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.chron.app.MainActivity$PlaceholderFragment">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/logo"
+            android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="20dp"
+        android:hint="Password"
+        android:id="@+id/password"
+        android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/signinbtn"
+            android:id="@+id/signin"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/signupbtn"
+            android:id="@+id/signup"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

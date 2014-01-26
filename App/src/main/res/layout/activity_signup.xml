@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    tools:context="com.chron.app.MainActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/logo"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:id="@+id/name"
+            android:hint="Name"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:hint="Email"
+            android:id="@+id/email"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:id="@+id/cnic"
+            android:hint="CNIC"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:hint="Address"
+            android:id="@+id/address"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:id="@+id/password"
+            android:hint="Password"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:hint="Conform Password"
+            android:id="@+id/conformpassword"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/signupbtn"
+            android:id="@+id/signup"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

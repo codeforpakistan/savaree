@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="#fff"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+   
+  <!--  Screen Design for Game Tab -->
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:gravity="center"
+      android:layout_height="wrap_content">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_margin="10dp"
+          android:background="@drawable/badge1"
+          android:layout_height="wrap_content" />
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_margin="10dp"
+          android:background="@drawable/badge2"
+          android:layout_height="wrap_content" />
+      </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/badge3"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/badges4"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+
+    tools:context="com.chron.app.MainActivity$PlaceholderFragment"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/driver"
+        android:background="@drawable/driver"
+    />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passenger"
+        android:background="@drawable/passenger"
+        />
+
+</LinearLayout>
